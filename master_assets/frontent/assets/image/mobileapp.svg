@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="87" viewBox="0 0 110 87">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#DFDCFC"/>
+            <stop offset="100%" stop-color="#DCF3FC"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="43.5" cy="43.5" r="43.5" fill="url(#a)"/>
+        <rect width="48" height="67" x="41" y="10" stroke="#3A3838" stroke-width="2" rx="4"/>
+        <rect width="24" height="21" x="23" y="15" fill="#DCF3FC" stroke="#3A3838" stroke-width="2" rx="4"/>
+        <rect width="12" height="11" x="69" y="21" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <rect width="12" height="11" x="69" y="38" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <rect width="12" height="11" x="49" y="21" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <rect width="12" height="11" x="49" y="38" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <rect width="12" height="11" x="69" y="55" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <rect width="24" height="21" x="85" y="53" fill="#2396FF" stroke="#3A3838" stroke-width="2" rx="4"/>
+        <path fill="#FFF" d="M102 63.5l-9 4.615v-9.23z"/>
+        <rect width="12" height="11" x="49" y="55" fill="#FFF" stroke="#373737" stroke-width="2" rx="4"/>
+        <path stroke="#373737" stroke-linecap="round" stroke-width="2" d="M24 30l6.35-7 5.849 7L46 23"/>
+    </g>
+</svg>
