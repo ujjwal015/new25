@@ -62,9 +62,39 @@
             var start_week=<?php echo $this->customlib->getStartWeek();?>;
             var chk_validate="<?php echo $this->config->item('SSLK')?>";
         </script>
-     
+        <script src="multiselect/jquery.multiselect.js"></script>
+<link rel="stylesheet" href="multiselect/jquery.multiselect.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <style type="text/css">
         span.flag-icon.flag-icon-us{text-orientation: mixed;}
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Hind+Madurai:wght@300;400&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Sarabun:wght@200&family=Secular+One&family=Varela+Round&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+      .r-font{
+        font-family: 'Righteous', cursive !important;
+      }
+      .p-font{
+        font-family: 'Poppins', sans-serif !important;
+      }
+      label{ font-family: 'Poppins', sans-serif !important;
+      font-weight: 900 !important
+      ;
+
+      }
+      table td,th{
+        font-family: 'Poppins', sans-serif !important;
+      font-weight: 600 !important;
+
+      }
+      li,a{ font-family: 'Poppins', sans-serif !important;
+      font-weight: 500 !important;
+
+
+      }
   </style>
     </head>
     <body class="hold-transition skin-blue fixed sidebar-mini">

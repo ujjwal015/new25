@@ -131,5 +131,11 @@ class Feetype_model extends MY_Model {
             return FALSE;
         }
     }
+    
+    
+      function all(){
+        $result=$this->db->get("feetype")->result_array();
+        return $result;
+    }
 
 }

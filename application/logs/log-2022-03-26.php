@@ -2846,3 +2846,471 @@ DEBUG - 2022-03-26 12:22:49 --> Global POST, GET and COOKIE data sanitized
 INFO - 2022-03-26 12:22:49 --> Input Class Initialized
 INFO - 2022-03-26 12:22:49 --> Language Class Initialized
 ERROR - 2022-03-26 12:22:49 --> 404 Page Not Found: Faviconico/index
+INFO - 2022-03-26 14:31:05 --> Config Class Initialized
+INFO - 2022-03-26 14:31:05 --> Hooks Class Initialized
+DEBUG - 2022-03-26 14:31:05 --> UTF-8 Support Enabled
+INFO - 2022-03-26 14:31:05 --> Utf8 Class Initialized
+INFO - 2022-03-26 14:31:05 --> URI Class Initialized
+INFO - 2022-03-26 14:31:05 --> Router Class Initialized
+INFO - 2022-03-26 14:31:05 --> Output Class Initialized
+INFO - 2022-03-26 14:31:05 --> Security Class Initialized
+DEBUG - 2022-03-26 14:31:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 14:31:05 --> Input Class Initialized
+INFO - 2022-03-26 14:31:05 --> Language Class Initialized
+ERROR - 2022-03-26 14:31:05 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-03-26 14:43:24 --> Config Class Initialized
+INFO - 2022-03-26 14:43:24 --> Hooks Class Initialized
+DEBUG - 2022-03-26 14:43:24 --> UTF-8 Support Enabled
+INFO - 2022-03-26 14:43:24 --> Utf8 Class Initialized
+INFO - 2022-03-26 14:43:24 --> URI Class Initialized
+INFO - 2022-03-26 14:43:24 --> Router Class Initialized
+INFO - 2022-03-26 14:43:24 --> Output Class Initialized
+INFO - 2022-03-26 14:43:24 --> Security Class Initialized
+DEBUG - 2022-03-26 14:43:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 14:43:24 --> Input Class Initialized
+INFO - 2022-03-26 14:43:24 --> Language Class Initialized
+ERROR - 2022-03-26 14:43:24 --> 404 Page Not Found: Faviconico/index
+INFO - 2022-03-26 15:37:04 --> Config Class Initialized
+INFO - 2022-03-26 15:37:04 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:05 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:05 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:05 --> URI Class Initialized
+INFO - 2022-03-26 15:37:05 --> Router Class Initialized
+INFO - 2022-03-26 15:37:05 --> Output Class Initialized
+INFO - 2022-03-26 15:37:05 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:05 --> Input Class Initialized
+INFO - 2022-03-26 15:37:05 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:05 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 15:37:07 --> Config Class Initialized
+INFO - 2022-03-26 15:37:07 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:07 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:07 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:07 --> URI Class Initialized
+INFO - 2022-03-26 15:37:07 --> Router Class Initialized
+INFO - 2022-03-26 15:37:07 --> Output Class Initialized
+INFO - 2022-03-26 15:37:07 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:07 --> Input Class Initialized
+INFO - 2022-03-26 15:37:07 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:07 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 15:37:09 --> Config Class Initialized
+INFO - 2022-03-26 15:37:09 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:09 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:09 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:09 --> URI Class Initialized
+INFO - 2022-03-26 15:37:09 --> Router Class Initialized
+INFO - 2022-03-26 15:37:09 --> Output Class Initialized
+INFO - 2022-03-26 15:37:09 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:09 --> Input Class Initialized
+INFO - 2022-03-26 15:37:09 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:09 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 15:37:11 --> Config Class Initialized
+INFO - 2022-03-26 15:37:11 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:11 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:11 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:11 --> URI Class Initialized
+INFO - 2022-03-26 15:37:11 --> Router Class Initialized
+INFO - 2022-03-26 15:37:11 --> Output Class Initialized
+INFO - 2022-03-26 15:37:11 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:11 --> Input Class Initialized
+INFO - 2022-03-26 15:37:11 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:11 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 15:37:13 --> Config Class Initialized
+INFO - 2022-03-26 15:37:13 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:13 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:13 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:13 --> URI Class Initialized
+INFO - 2022-03-26 15:37:13 --> Router Class Initialized
+INFO - 2022-03-26 15:37:13 --> Output Class Initialized
+INFO - 2022-03-26 15:37:13 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:13 --> Input Class Initialized
+INFO - 2022-03-26 15:37:13 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:13 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 15:37:15 --> Config Class Initialized
+INFO - 2022-03-26 15:37:15 --> Hooks Class Initialized
+DEBUG - 2022-03-26 15:37:15 --> UTF-8 Support Enabled
+INFO - 2022-03-26 15:37:15 --> Utf8 Class Initialized
+INFO - 2022-03-26 15:37:15 --> URI Class Initialized
+INFO - 2022-03-26 15:37:15 --> Router Class Initialized
+INFO - 2022-03-26 15:37:15 --> Output Class Initialized
+INFO - 2022-03-26 15:37:15 --> Security Class Initialized
+DEBUG - 2022-03-26 15:37:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 15:37:15 --> Input Class Initialized
+INFO - 2022-03-26 15:37:15 --> Language Class Initialized
+ERROR - 2022-03-26 15:37:15 --> 404 Page Not Found: Contact-2html/index
+INFO - 2022-03-26 18:12:47 --> Config Class Initialized
+INFO - 2022-03-26 18:12:47 --> Hooks Class Initialized
+DEBUG - 2022-03-26 18:12:47 --> UTF-8 Support Enabled
+INFO - 2022-03-26 18:12:47 --> Utf8 Class Initialized
+INFO - 2022-03-26 18:12:47 --> URI Class Initialized
+INFO - 2022-03-26 18:12:47 --> Router Class Initialized
+INFO - 2022-03-26 18:12:47 --> Output Class Initialized
+INFO - 2022-03-26 18:12:47 --> Security Class Initialized
+DEBUG - 2022-03-26 18:12:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 18:12:47 --> Input Class Initialized
+INFO - 2022-03-26 18:12:47 --> Language Class Initialized
+ERROR - 2022-03-26 18:12:47 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-03-26 20:13:39 --> Config Class Initialized
+INFO - 2022-03-26 20:13:39 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:13:39 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:13:39 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:13:39 --> URI Class Initialized
+INFO - 2022-03-26 20:13:39 --> Router Class Initialized
+INFO - 2022-03-26 20:13:39 --> Output Class Initialized
+INFO - 2022-03-26 20:13:39 --> Security Class Initialized
+DEBUG - 2022-03-26 20:13:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:13:39 --> Input Class Initialized
+INFO - 2022-03-26 20:13:39 --> Language Class Initialized
+ERROR - 2022-03-26 20:13:39 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-03-26 20:18:00 --> Config Class Initialized
+INFO - 2022-03-26 20:18:00 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:00 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:00 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:00 --> URI Class Initialized
+INFO - 2022-03-26 20:18:00 --> Router Class Initialized
+INFO - 2022-03-26 20:18:00 --> Output Class Initialized
+INFO - 2022-03-26 20:18:00 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:00 --> Input Class Initialized
+INFO - 2022-03-26 20:18:00 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:00 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-03-26 20:18:01 --> Config Class Initialized
+INFO - 2022-03-26 20:18:01 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:01 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:01 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:01 --> URI Class Initialized
+INFO - 2022-03-26 20:18:01 --> Router Class Initialized
+INFO - 2022-03-26 20:18:01 --> Output Class Initialized
+INFO - 2022-03-26 20:18:01 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:01 --> Input Class Initialized
+INFO - 2022-03-26 20:18:01 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:01 --> 404 Page Not Found: Attendancepagephp/index
+INFO - 2022-03-26 20:18:06 --> Config Class Initialized
+INFO - 2022-03-26 20:18:06 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:06 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:06 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:06 --> URI Class Initialized
+INFO - 2022-03-26 20:18:06 --> Router Class Initialized
+INFO - 2022-03-26 20:18:06 --> Output Class Initialized
+INFO - 2022-03-26 20:18:06 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:06 --> Input Class Initialized
+INFO - 2022-03-26 20:18:06 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:06 --> 404 Page Not Found: Book13php/index
+INFO - 2022-03-26 20:18:11 --> Config Class Initialized
+INFO - 2022-03-26 20:18:11 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:11 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:11 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:11 --> URI Class Initialized
+INFO - 2022-03-26 20:18:11 --> Router Class Initialized
+INFO - 2022-03-26 20:18:11 --> Output Class Initialized
+INFO - 2022-03-26 20:18:11 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:11 --> Input Class Initialized
+INFO - 2022-03-26 20:18:11 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:11 --> 404 Page Not Found: Bookingpagephp/index
+INFO - 2022-03-26 20:18:16 --> Config Class Initialized
+INFO - 2022-03-26 20:18:16 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:16 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:16 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:16 --> URI Class Initialized
+INFO - 2022-03-26 20:18:16 --> Router Class Initialized
+INFO - 2022-03-26 20:18:16 --> Output Class Initialized
+INFO - 2022-03-26 20:18:16 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:16 --> Input Class Initialized
+INFO - 2022-03-26 20:18:16 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:16 --> 404 Page Not Found: Communicationphp/index
+INFO - 2022-03-26 20:18:20 --> Config Class Initialized
+INFO - 2022-03-26 20:18:20 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:20 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:20 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:20 --> URI Class Initialized
+INFO - 2022-03-26 20:18:20 --> Router Class Initialized
+INFO - 2022-03-26 20:18:20 --> Output Class Initialized
+INFO - 2022-03-26 20:18:20 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:20 --> Input Class Initialized
+INFO - 2022-03-26 20:18:20 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:20 --> 404 Page Not Found: Contactphp/index
+INFO - 2022-03-26 20:18:25 --> Config Class Initialized
+INFO - 2022-03-26 20:18:25 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:25 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:25 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:25 --> URI Class Initialized
+INFO - 2022-03-26 20:18:25 --> Router Class Initialized
+INFO - 2022-03-26 20:18:25 --> Output Class Initialized
+INFO - 2022-03-26 20:18:25 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:25 --> Input Class Initialized
+INFO - 2022-03-26 20:18:25 --> Language Class Initialized
+INFO - 2022-03-26 20:18:25 --> Loader Class Initialized
+INFO - 2022-03-26 20:18:25 --> Helper loaded: url_helper
+INFO - 2022-03-26 20:18:25 --> Helper loaded: common_helper
+DEBUG - 2022-03-26 20:18:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-03-26 20:18:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-03-26 20:18:25 --> Database Driver Class Initialized
+INFO - 2022-03-26 20:18:25 --> Model "Common_model" initialized
+INFO - 2022-03-26 20:18:25 --> Controller Class Initialized
+INFO - 2022-03-26 20:18:25 --> Helper loaded: form_helper
+INFO - 2022-03-26 20:18:25 --> Form Validation Class Initialized
+INFO - 2022-03-26 20:18:25 --> Helper loaded: security_helper
+INFO - 2022-03-26 20:18:25 --> Helper loaded: captcha_helper
+INFO - 2022-03-26 20:18:25 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/forgot_password.php
+INFO - 2022-03-26 20:18:25 --> Final output sent to browser
+DEBUG - 2022-03-26 20:18:25 --> Total execution time: 0.0723
+INFO - 2022-03-26 20:18:29 --> Config Class Initialized
+INFO - 2022-03-26 20:18:29 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:29 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:29 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:29 --> URI Class Initialized
+INFO - 2022-03-26 20:18:29 --> Router Class Initialized
+INFO - 2022-03-26 20:18:29 --> Output Class Initialized
+INFO - 2022-03-26 20:18:29 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:29 --> Input Class Initialized
+INFO - 2022-03-26 20:18:29 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:29 --> 404 Page Not Found: Forschoolphp/index
+INFO - 2022-03-26 20:18:34 --> Config Class Initialized
+INFO - 2022-03-26 20:18:34 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:34 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:34 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:34 --> URI Class Initialized
+INFO - 2022-03-26 20:18:34 --> Router Class Initialized
+INFO - 2022-03-26 20:18:34 --> Output Class Initialized
+INFO - 2022-03-26 20:18:34 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:34 --> Input Class Initialized
+INFO - 2022-03-26 20:18:34 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:34 --> 404 Page Not Found: H/index
+INFO - 2022-03-26 20:18:38 --> Config Class Initialized
+INFO - 2022-03-26 20:18:38 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:38 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:38 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:38 --> URI Class Initialized
+INFO - 2022-03-26 20:18:38 --> Router Class Initialized
+INFO - 2022-03-26 20:18:38 --> Output Class Initialized
+INFO - 2022-03-26 20:18:38 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:38 --> Input Class Initialized
+INFO - 2022-03-26 20:18:38 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:38 --> 404 Page Not Found: Instantlyphp/index
+INFO - 2022-03-26 20:18:43 --> Config Class Initialized
+INFO - 2022-03-26 20:18:43 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:43 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:43 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:43 --> URI Class Initialized
+INFO - 2022-03-26 20:18:43 --> Router Class Initialized
+INFO - 2022-03-26 20:18:43 --> Output Class Initialized
+INFO - 2022-03-26 20:18:43 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:43 --> Input Class Initialized
+INFO - 2022-03-26 20:18:43 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:43 --> 404 Page Not Found: Instantlyregphp/index
+INFO - 2022-03-26 20:18:47 --> Config Class Initialized
+INFO - 2022-03-26 20:18:47 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:47 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:47 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:47 --> URI Class Initialized
+INFO - 2022-03-26 20:18:47 --> Router Class Initialized
+INFO - 2022-03-26 20:18:47 --> Output Class Initialized
+INFO - 2022-03-26 20:18:47 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:47 --> Input Class Initialized
+INFO - 2022-03-26 20:18:47 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:47 --> 404 Page Not Found: Joinphp/index
+INFO - 2022-03-26 20:18:51 --> Config Class Initialized
+INFO - 2022-03-26 20:18:51 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:51 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:51 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:51 --> URI Class Initialized
+INFO - 2022-03-26 20:18:51 --> Router Class Initialized
+INFO - 2022-03-26 20:18:51 --> Output Class Initialized
+INFO - 2022-03-26 20:18:51 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:51 --> Input Class Initialized
+INFO - 2022-03-26 20:18:51 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:51 --> 404 Page Not Found: Learningmanagementphp/index
+INFO - 2022-03-26 20:18:55 --> Config Class Initialized
+INFO - 2022-03-26 20:18:55 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:55 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:55 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:55 --> URI Class Initialized
+INFO - 2022-03-26 20:18:55 --> Router Class Initialized
+INFO - 2022-03-26 20:18:55 --> Output Class Initialized
+INFO - 2022-03-26 20:18:55 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:55 --> Input Class Initialized
+INFO - 2022-03-26 20:18:55 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:55 --> 404 Page Not Found: Live-classphp/index
+INFO - 2022-03-26 20:18:59 --> Config Class Initialized
+INFO - 2022-03-26 20:18:59 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:18:59 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:18:59 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:18:59 --> URI Class Initialized
+INFO - 2022-03-26 20:18:59 --> Router Class Initialized
+INFO - 2022-03-26 20:18:59 --> Output Class Initialized
+INFO - 2022-03-26 20:18:59 --> Security Class Initialized
+DEBUG - 2022-03-26 20:18:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:18:59 --> Input Class Initialized
+INFO - 2022-03-26 20:18:59 --> Language Class Initialized
+ERROR - 2022-03-26 20:18:59 --> 404 Page Not Found: Onlinecoursephp/index
+INFO - 2022-03-26 20:19:02 --> Config Class Initialized
+INFO - 2022-03-26 20:19:02 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:02 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:02 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:02 --> URI Class Initialized
+INFO - 2022-03-26 20:19:02 --> Router Class Initialized
+INFO - 2022-03-26 20:19:02 --> Output Class Initialized
+INFO - 2022-03-26 20:19:02 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:02 --> Input Class Initialized
+INFO - 2022-03-26 20:19:02 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:02 --> 404 Page Not Found: Parent-student-regphp/index
+INFO - 2022-03-26 20:19:06 --> Config Class Initialized
+INFO - 2022-03-26 20:19:06 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:06 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:06 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:06 --> URI Class Initialized
+INFO - 2022-03-26 20:19:06 --> Router Class Initialized
+INFO - 2022-03-26 20:19:06 --> Output Class Initialized
+INFO - 2022-03-26 20:19:06 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:06 --> Input Class Initialized
+INFO - 2022-03-26 20:19:06 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:06 --> 404 Page Not Found: Pricingphp/index
+INFO - 2022-03-26 20:19:11 --> Config Class Initialized
+INFO - 2022-03-26 20:19:11 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:11 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:11 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:11 --> URI Class Initialized
+INFO - 2022-03-26 20:19:11 --> Router Class Initialized
+INFO - 2022-03-26 20:19:11 --> Output Class Initialized
+INFO - 2022-03-26 20:19:11 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:11 --> Input Class Initialized
+INFO - 2022-03-26 20:19:11 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:11 --> 404 Page Not Found: Privacyphp/index
+INFO - 2022-03-26 20:19:15 --> Config Class Initialized
+INFO - 2022-03-26 20:19:15 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:15 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:15 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:15 --> URI Class Initialized
+INFO - 2022-03-26 20:19:15 --> Router Class Initialized
+INFO - 2022-03-26 20:19:15 --> Output Class Initialized
+INFO - 2022-03-26 20:19:15 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:15 --> Input Class Initialized
+INFO - 2022-03-26 20:19:15 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:15 --> 404 Page Not Found: Register/users
+INFO - 2022-03-26 20:19:18 --> Config Class Initialized
+INFO - 2022-03-26 20:19:18 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:18 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:18 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:18 --> URI Class Initialized
+INFO - 2022-03-26 20:19:18 --> Router Class Initialized
+INFO - 2022-03-26 20:19:18 --> Output Class Initialized
+INFO - 2022-03-26 20:19:18 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:18 --> Input Class Initialized
+INFO - 2022-03-26 20:19:18 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:18 --> 404 Page Not Found: Registeronlinephp/index
+INFO - 2022-03-26 20:19:22 --> Config Class Initialized
+INFO - 2022-03-26 20:19:22 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:22 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:22 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:22 --> URI Class Initialized
+INFO - 2022-03-26 20:19:22 --> Router Class Initialized
+INFO - 2022-03-26 20:19:22 --> Output Class Initialized
+INFO - 2022-03-26 20:19:22 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:22 --> Input Class Initialized
+INFO - 2022-03-26 20:19:22 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:22 --> 404 Page Not Found: Registerpreschoolphp/index
+INFO - 2022-03-26 20:19:27 --> Config Class Initialized
+INFO - 2022-03-26 20:19:27 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:27 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:27 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:27 --> URI Class Initialized
+INFO - 2022-03-26 20:19:27 --> Router Class Initialized
+INFO - 2022-03-26 20:19:27 --> Output Class Initialized
+INFO - 2022-03-26 20:19:27 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:27 --> Input Class Initialized
+INFO - 2022-03-26 20:19:27 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:27 --> 404 Page Not Found: Studentmanagementphp/index
+INFO - 2022-03-26 20:19:32 --> Config Class Initialized
+INFO - 2022-03-26 20:19:32 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:32 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:32 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:32 --> URI Class Initialized
+INFO - 2022-03-26 20:19:32 --> Router Class Initialized
+INFO - 2022-03-26 20:19:32 --> Output Class Initialized
+INFO - 2022-03-26 20:19:32 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:32 --> Input Class Initialized
+INFO - 2022-03-26 20:19:32 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:32 --> 404 Page Not Found: Termsphp/index
+INFO - 2022-03-26 20:19:37 --> Config Class Initialized
+INFO - 2022-03-26 20:19:37 --> Hooks Class Initialized
+DEBUG - 2022-03-26 20:19:37 --> UTF-8 Support Enabled
+INFO - 2022-03-26 20:19:37 --> Utf8 Class Initialized
+INFO - 2022-03-26 20:19:37 --> URI Class Initialized
+INFO - 2022-03-26 20:19:37 --> Router Class Initialized
+INFO - 2022-03-26 20:19:37 --> Output Class Initialized
+INFO - 2022-03-26 20:19:37 --> Security Class Initialized
+DEBUG - 2022-03-26 20:19:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 20:19:37 --> Input Class Initialized
+INFO - 2022-03-26 20:19:37 --> Language Class Initialized
+ERROR - 2022-03-26 20:19:37 --> 404 Page Not Found: Websiteenrollmentphp/index
+INFO - 2022-03-26 23:09:33 --> Config Class Initialized
+INFO - 2022-03-26 23:09:33 --> Hooks Class Initialized
+DEBUG - 2022-03-26 23:09:33 --> UTF-8 Support Enabled
+INFO - 2022-03-26 23:09:33 --> Utf8 Class Initialized
+INFO - 2022-03-26 23:09:33 --> URI Class Initialized
+INFO - 2022-03-26 23:09:33 --> Router Class Initialized
+INFO - 2022-03-26 23:09:33 --> Output Class Initialized
+INFO - 2022-03-26 23:09:33 --> Security Class Initialized
+DEBUG - 2022-03-26 23:09:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 23:09:33 --> Input Class Initialized
+INFO - 2022-03-26 23:09:33 --> Language Class Initialized
+ERROR - 2022-03-26 23:09:33 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-03-26 23:09:34 --> Config Class Initialized
+INFO - 2022-03-26 23:09:34 --> Hooks Class Initialized
+DEBUG - 2022-03-26 23:09:34 --> UTF-8 Support Enabled
+INFO - 2022-03-26 23:09:34 --> Utf8 Class Initialized
+INFO - 2022-03-26 23:09:34 --> URI Class Initialized
+DEBUG - 2022-03-26 23:09:34 --> No URI present. Default controller set.
+INFO - 2022-03-26 23:09:34 --> Router Class Initialized
+INFO - 2022-03-26 23:09:34 --> Output Class Initialized
+INFO - 2022-03-26 23:09:34 --> Security Class Initialized
+DEBUG - 2022-03-26 23:09:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-03-26 23:09:34 --> Input Class Initialized
+INFO - 2022-03-26 23:09:34 --> Language Class Initialized
+INFO - 2022-03-26 23:09:34 --> Loader Class Initialized
+INFO - 2022-03-26 23:09:34 --> Helper loaded: url_helper
+INFO - 2022-03-26 23:09:34 --> Helper loaded: common_helper
+DEBUG - 2022-03-26 23:09:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-03-26 23:09:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-03-26 23:09:34 --> Database Driver Class Initialized
+INFO - 2022-03-26 23:09:34 --> Model "Common_model" initialized
+INFO - 2022-03-26 23:09:34 --> Controller Class Initialized
+INFO - 2022-03-26 23:09:34 --> Helper loaded: form_helper
+INFO - 2022-03-26 23:09:34 --> Form Validation Class Initialized
+DEBUG - 2022-03-26 23:09:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-03-26 23:09:34 --> Helper loaded: date_helper
+INFO - 2022-03-26 23:09:34 --> Helper loaded: security_helper
+INFO - 2022-03-26 23:09:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-03-26 23:09:34 --> Pagination Class Initialized
+INFO - 2022-03-26 23:09:34 --> Helper loaded: captcha_helper
+INFO - 2022-03-26 23:09:34 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/head.php
+INFO - 2022-03-26 23:09:34 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/header.php
+INFO - 2022-03-26 23:09:34 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/footer.php
+INFO - 2022-03-26 23:09:34 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/index.php
+INFO - 2022-03-26 23:09:34 --> Final output sent to browser
+DEBUG - 2022-03-26 23:09:34 --> Total execution time: 0.0637

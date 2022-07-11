@@ -1499,6 +1499,12 @@ CREATE TABLE `id_card` (
   `enable_phone` tinyint(1) NOT NULL COMMENT '0=disable,1=enable',
   `enable_dob` tinyint(1) NOT NULL COMMENT '0=disable,1=enable',
   `enable_blood_group` tinyint(1) NOT NULL COMMENT '0=disable,1=enable',
+  `id_card_size` varchar(255) DEFAULT NULL,
+  `font_type` varchar(255) DEFAULT NULL,
+  `font_size` varchar(255) DEFAULT NULL,
+  `font_color` varchar(255) DEFAULT NULL,
+  `photo_size` varchar(255) DEFAULT NULL,
+  `logo_size` varchar(255) DEFAULT NULL,
   `status` tinyint(1) NOT NULL COMMENT '0=disable,1=enable'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -3492,6 +3498,23 @@ INSERT INTO `sections` (`id`, `section`, `is_active`, `created_at`, `updated_at`
 (2, 'B', 'no', '2021-12-03 08:44:26', NULL),
 (3, 'C', 'no', '2021-12-03 08:44:30', NULL);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `semesters`
+--
+
+CREATE TABLE `semesters`(
+  `id` int(11) NOT NULL,
+  `semester` varchar(60) DEFAULT NULL,
+  `is_active` varchar(255) DEFAULT 'no',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `updated_at` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `semesters`
+--
 -- --------------------------------------------------------
 
 --

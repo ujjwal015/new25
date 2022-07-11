@@ -196,5 +196,12 @@ class Class_model extends MY_Model {
 
         return $this->db->select('sections.id,sections.section')->from('class_sections')->join('sections', 'class_sections.section_id=sections.id')->where('class_id', $id)->get()->result_array();
     }
+    
+    
+    public function all(){
+      
+        $result=$this->db->get("classes")->result_array();
+        return $result;
+    }
 
 }
