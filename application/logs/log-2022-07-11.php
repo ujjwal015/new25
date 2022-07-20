@@ -2220,3 +2220,167 @@ INFO - 2022-07-11 10:31:19 --> File loaded: /home/zobofy/public_html/smartschool
 INFO - 2022-07-11 10:31:19 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/index.php
 INFO - 2022-07-11 10:31:19 --> Final output sent to browser
 DEBUG - 2022-07-11 10:31:19 --> Total execution time: 0.0378
+INFO - 2022-07-11 12:01:29 --> Config Class Initialized
+INFO - 2022-07-11 12:01:29 --> Hooks Class Initialized
+DEBUG - 2022-07-11 12:01:29 --> UTF-8 Support Enabled
+INFO - 2022-07-11 12:01:29 --> Utf8 Class Initialized
+INFO - 2022-07-11 12:01:29 --> URI Class Initialized
+INFO - 2022-07-11 12:01:29 --> Router Class Initialized
+INFO - 2022-07-11 12:01:29 --> Output Class Initialized
+INFO - 2022-07-11 12:01:29 --> Security Class Initialized
+DEBUG - 2022-07-11 12:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 12:01:29 --> Input Class Initialized
+INFO - 2022-07-11 12:01:29 --> Language Class Initialized
+INFO - 2022-07-11 12:01:29 --> Loader Class Initialized
+INFO - 2022-07-11 12:01:29 --> Helper loaded: url_helper
+INFO - 2022-07-11 12:01:29 --> Helper loaded: common_helper
+DEBUG - 2022-07-11 12:01:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-07-11 12:01:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-07-11 12:01:29 --> Database Driver Class Initialized
+INFO - 2022-07-11 12:01:29 --> Model "Common_model" initialized
+INFO - 2022-07-11 12:01:29 --> Controller Class Initialized
+INFO - 2022-07-11 12:01:29 --> Helper loaded: form_helper
+INFO - 2022-07-11 12:01:29 --> Form Validation Class Initialized
+INFO - 2022-07-11 12:01:29 --> Helper loaded: security_helper
+INFO - 2022-07-11 12:01:29 --> Helper loaded: captcha_helper
+INFO - 2022-07-11 12:01:29 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/forgot_password.php
+INFO - 2022-07-11 12:01:29 --> Final output sent to browser
+DEBUG - 2022-07-11 12:01:29 --> Total execution time: 0.0322
+INFO - 2022-07-11 15:48:20 --> Config Class Initialized
+INFO - 2022-07-11 15:48:20 --> Hooks Class Initialized
+DEBUG - 2022-07-11 15:48:20 --> UTF-8 Support Enabled
+INFO - 2022-07-11 15:48:20 --> Utf8 Class Initialized
+INFO - 2022-07-11 15:48:20 --> URI Class Initialized
+DEBUG - 2022-07-11 15:48:20 --> No URI present. Default controller set.
+INFO - 2022-07-11 15:48:20 --> Router Class Initialized
+INFO - 2022-07-11 15:48:20 --> Output Class Initialized
+INFO - 2022-07-11 15:48:20 --> Security Class Initialized
+DEBUG - 2022-07-11 15:48:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 15:48:20 --> Input Class Initialized
+INFO - 2022-07-11 15:48:20 --> Language Class Initialized
+INFO - 2022-07-11 15:48:20 --> Loader Class Initialized
+INFO - 2022-07-11 15:48:20 --> Helper loaded: url_helper
+INFO - 2022-07-11 15:48:20 --> Helper loaded: common_helper
+DEBUG - 2022-07-11 15:48:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-07-11 15:48:20 --> Session: Class initialized using 'files' driver.
+INFO - 2022-07-11 15:48:20 --> Database Driver Class Initialized
+INFO - 2022-07-11 15:48:20 --> Model "Common_model" initialized
+INFO - 2022-07-11 15:48:20 --> Controller Class Initialized
+INFO - 2022-07-11 15:48:20 --> Helper loaded: form_helper
+INFO - 2022-07-11 15:48:20 --> Form Validation Class Initialized
+DEBUG - 2022-07-11 15:48:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-07-11 15:48:20 --> Helper loaded: date_helper
+INFO - 2022-07-11 15:48:20 --> Helper loaded: security_helper
+INFO - 2022-07-11 15:48:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-07-11 15:48:20 --> Pagination Class Initialized
+INFO - 2022-07-11 15:48:20 --> Helper loaded: captcha_helper
+INFO - 2022-07-11 15:48:20 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/head.php
+INFO - 2022-07-11 15:48:20 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/header.php
+INFO - 2022-07-11 15:48:20 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/footer.php
+INFO - 2022-07-11 15:48:20 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/index.php
+INFO - 2022-07-11 15:48:20 --> Final output sent to browser
+DEBUG - 2022-07-11 15:48:20 --> Total execution time: 0.1010
+INFO - 2022-07-11 15:48:21 --> Config Class Initialized
+INFO - 2022-07-11 15:48:21 --> Hooks Class Initialized
+DEBUG - 2022-07-11 15:48:21 --> UTF-8 Support Enabled
+INFO - 2022-07-11 15:48:21 --> Utf8 Class Initialized
+INFO - 2022-07-11 15:48:21 --> URI Class Initialized
+INFO - 2022-07-11 15:48:21 --> Router Class Initialized
+INFO - 2022-07-11 15:48:21 --> Output Class Initialized
+INFO - 2022-07-11 15:48:21 --> Security Class Initialized
+DEBUG - 2022-07-11 15:48:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 15:48:21 --> Input Class Initialized
+INFO - 2022-07-11 15:48:21 --> Language Class Initialized
+ERROR - 2022-07-11 15:48:21 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-07-11 17:03:20 --> Config Class Initialized
+INFO - 2022-07-11 17:03:20 --> Hooks Class Initialized
+DEBUG - 2022-07-11 17:03:20 --> UTF-8 Support Enabled
+INFO - 2022-07-11 17:03:20 --> Utf8 Class Initialized
+INFO - 2022-07-11 17:03:20 --> URI Class Initialized
+INFO - 2022-07-11 17:03:20 --> Router Class Initialized
+INFO - 2022-07-11 17:03:20 --> Output Class Initialized
+INFO - 2022-07-11 17:03:20 --> Security Class Initialized
+DEBUG - 2022-07-11 17:03:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 17:03:20 --> Input Class Initialized
+INFO - 2022-07-11 17:03:20 --> Language Class Initialized
+ERROR - 2022-07-11 17:03:20 --> 404 Page Not Found: Robotstxt/index
+INFO - 2022-07-11 18:19:22 --> Config Class Initialized
+INFO - 2022-07-11 18:19:22 --> Hooks Class Initialized
+DEBUG - 2022-07-11 18:19:22 --> UTF-8 Support Enabled
+INFO - 2022-07-11 18:19:22 --> Utf8 Class Initialized
+INFO - 2022-07-11 18:19:22 --> URI Class Initialized
+DEBUG - 2022-07-11 18:19:22 --> No URI present. Default controller set.
+INFO - 2022-07-11 18:19:22 --> Router Class Initialized
+INFO - 2022-07-11 18:19:22 --> Output Class Initialized
+INFO - 2022-07-11 18:19:22 --> Security Class Initialized
+DEBUG - 2022-07-11 18:19:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 18:19:22 --> Input Class Initialized
+INFO - 2022-07-11 18:19:22 --> Language Class Initialized
+INFO - 2022-07-11 18:19:22 --> Loader Class Initialized
+INFO - 2022-07-11 18:19:22 --> Helper loaded: url_helper
+INFO - 2022-07-11 18:19:22 --> Helper loaded: common_helper
+DEBUG - 2022-07-11 18:19:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-07-11 18:19:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-07-11 18:19:22 --> Database Driver Class Initialized
+INFO - 2022-07-11 18:19:22 --> Model "Common_model" initialized
+INFO - 2022-07-11 18:19:22 --> Controller Class Initialized
+INFO - 2022-07-11 18:19:22 --> Helper loaded: form_helper
+INFO - 2022-07-11 18:19:22 --> Form Validation Class Initialized
+DEBUG - 2022-07-11 18:19:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-07-11 18:19:22 --> Helper loaded: date_helper
+INFO - 2022-07-11 18:19:22 --> Helper loaded: security_helper
+INFO - 2022-07-11 18:19:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-07-11 18:19:22 --> Pagination Class Initialized
+INFO - 2022-07-11 18:19:22 --> Helper loaded: captcha_helper
+INFO - 2022-07-11 18:19:22 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/head.php
+INFO - 2022-07-11 18:19:22 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/header.php
+INFO - 2022-07-11 18:19:22 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/footer.php
+INFO - 2022-07-11 18:19:22 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/index.php
+INFO - 2022-07-11 18:19:22 --> Final output sent to browser
+DEBUG - 2022-07-11 18:19:22 --> Total execution time: 0.1027
+INFO - 2022-07-11 20:55:54 --> Config Class Initialized
+INFO - 2022-07-11 20:55:54 --> Hooks Class Initialized
+DEBUG - 2022-07-11 20:55:54 --> UTF-8 Support Enabled
+INFO - 2022-07-11 20:55:54 --> Utf8 Class Initialized
+INFO - 2022-07-11 20:55:54 --> URI Class Initialized
+DEBUG - 2022-07-11 20:55:54 --> No URI present. Default controller set.
+INFO - 2022-07-11 20:55:54 --> Router Class Initialized
+INFO - 2022-07-11 20:55:54 --> Output Class Initialized
+INFO - 2022-07-11 20:55:54 --> Security Class Initialized
+DEBUG - 2022-07-11 20:55:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 20:55:54 --> Input Class Initialized
+INFO - 2022-07-11 20:55:54 --> Language Class Initialized
+INFO - 2022-07-11 20:55:54 --> Loader Class Initialized
+INFO - 2022-07-11 20:55:54 --> Helper loaded: url_helper
+INFO - 2022-07-11 20:55:54 --> Helper loaded: common_helper
+DEBUG - 2022-07-11 20:55:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2022-07-11 20:55:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-07-11 20:55:55 --> Database Driver Class Initialized
+INFO - 2022-07-11 20:55:55 --> Model "Common_model" initialized
+INFO - 2022-07-11 20:55:55 --> Controller Class Initialized
+INFO - 2022-07-11 20:55:55 --> Helper loaded: form_helper
+INFO - 2022-07-11 20:55:55 --> Form Validation Class Initialized
+DEBUG - 2022-07-11 20:55:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2022-07-11 20:55:55 --> Helper loaded: date_helper
+INFO - 2022-07-11 20:55:55 --> Helper loaded: security_helper
+INFO - 2022-07-11 20:55:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-07-11 20:55:55 --> Pagination Class Initialized
+INFO - 2022-07-11 20:55:55 --> Helper loaded: captcha_helper
+INFO - 2022-07-11 20:55:55 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/head.php
+INFO - 2022-07-11 20:55:55 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/header.php
+INFO - 2022-07-11 20:55:55 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/footer.php
+INFO - 2022-07-11 20:55:55 --> File loaded: /home/zobofy/public_html/smartschoolone/application/views/index.php
+INFO - 2022-07-11 20:55:55 --> Final output sent to browser
+DEBUG - 2022-07-11 20:55:55 --> Total execution time: 0.0954
+INFO - 2022-07-11 21:17:58 --> Config Class Initialized
+INFO - 2022-07-11 21:17:58 --> Hooks Class Initialized
+DEBUG - 2022-07-11 21:17:58 --> UTF-8 Support Enabled
+INFO - 2022-07-11 21:17:58 --> Utf8 Class Initialized
+INFO - 2022-07-11 21:17:58 --> URI Class Initialized
+INFO - 2022-07-11 21:17:58 --> Router Class Initialized
+INFO - 2022-07-11 21:17:58 --> Output Class Initialized
+INFO - 2022-07-11 21:17:58 --> Security Class Initialized
+DEBUG - 2022-07-11 21:17:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-07-11 21:17:58 --> Input Class Initialized
+INFO - 2022-07-11 21:17:58 --> Language Class Initialized
+ERROR - 2022-07-11 21:17:58 --> 404 Page Not Found: Robotstxt/index
