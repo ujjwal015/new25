@@ -1,4 +1,5 @@
 <?php $currency_symbol = $this->customlib->getSchoolCurrencyFormat();?>
+
 <style type="text/css">
     .borderwhite{border-top-color: #fff !important;}
     .box-header>.box-tools {display: none;}

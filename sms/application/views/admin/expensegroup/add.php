@@ -116,6 +116,26 @@
                            
                                 
                             <?php echo $this->customlib->getCSRF(); ?> 
+
+                             <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                <label for="exampleInputEmail1">Select Expense Head</label><small class="req"> *</small>
+                                  <select class="form-control" name="expense-head">
+                                    <option>Select Expense Head</option>
+                                    <?php foreach($expensehead as $expensehead_list){?>
+                                      <option><?php echo $expensehead_list['exp_category']?></option>
+
+                                  <?php }?>
+
+                                  </select>
+                                <span class="text-danger"><?php echo form_error('studyclass'); ?></span>
+                            </div>  
+                                  </div>
+
+                                  
+                                 
+                                </div>   
                                 <div class="row">
                                   <div class="col-md-12">
                                     <div class="form-group">
@@ -157,6 +177,25 @@
                            
                                 <input type="hidden" name="id">
                             <?php echo $this->customlib->getCSRF(); ?> 
+                             <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                <label for="exampleInputEmail1">Select Expense Head</label><small class="req"> *</small>
+                                  <select class="form-control" name="expense-head">
+                                    <option>Select Expense Head</option>
+                                    <?php foreach($expensehead as $expensehead_list){?>
+                                      <option><?php echo $expensehead_list['exp_category']?></option>
+
+                                  <?php }?>
+
+                                  </select>
+                                <span class="text-danger"><?php echo form_error('studyclass'); ?></span>
+                            </div>  
+                                  </div>
+
+                                  
+                                 
+                                </div>   
                                               
                            <div class="col-md-12">
                                     <div class="form-group">
@@ -188,10 +227,11 @@
                         <div class="box-body">
                             <div class="mailbox-messages table-responsive">
                                 <div class="download_label"><?php echo $this->lang->line('item_list'); ?></div>
-                                <table class="table table-hover table-striped table-bordered example">
+                                <table class="table table-hover table-striped table-bordered example text-center">
                                     <thead>
                                         <tr>
                                             <th>Sr.No</th>
+                                            <th>Expense Head</th>
                                             <th>Expense Group</th>
                                             <th>Status</th>
                                             <th>Action</th>
@@ -202,7 +242,9 @@
                                       <?php foreach($expensegroup as $key=>$list){?>
                                         <tr>
                                           <td><?php echo $key+1?></td>
+                                          <td><?php echo  $list['expense_head'] ?></td>
                                           <td><?php echo  $list['name'] ?></td>
+
                                           <td>
                                             <?php if($list['status']==1)
 
@@ -276,7 +318,7 @@
           var tr=this.parentElement.parentElement;
           var td=tr.getElementsByTagName("TD");
           
-          $("#edit-form").find("input[name='name']").val(td[1].innerHTML);
+          $("#edit-form").find("input[name='name']").val(td[2].innerHTML);
            $
 
         $(".add-transportation-box").addClass("d-none");

@@ -135,7 +135,9 @@ if ($page_side_bar) {
 
                 });
             });
-
+      window.onload=function(){
+        alert();
+      }
         </script>
     </body>
 </html>

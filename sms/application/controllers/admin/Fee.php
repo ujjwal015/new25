@@ -55,8 +55,10 @@ class Fee extends Admin_Controller {
             "fee_type"=>$this->input->post("fee_type"),
 
         );
-        $checkExist=$this->Fee_model->checkExistFee($data);
-        if(!$checkExist){
+
+         
+        // $checkExist=$this->Fee_model->checkExistFee($data);
+        if(1){
            $create=$this->Fee_model->add($data);
            if($create){
             $this->session->set_flashdata("msg","<div class='alert alert-success'><i class='fa fa-times-circle close' data-dismiss='alert'></i>Fee created successfully</div>");
@@ -126,10 +128,13 @@ class Fee extends Admin_Controller {
 
     
     public function semester_details(){
+
         $classname= $_GET['class'];
         $year=$_GET['year'];
         $data=$this->Semesters_model->semester_details($classname,$year);
         $level=$this->Studylevel_model->get_level_by_class($classname);
+
+
       
 
         if(!empty($data) && !empty($level)){
@@ -139,28 +144,60 @@ class Fee extends Admin_Controller {
 
 
     public function list(){
-   
-        $data['title'] = 'Fee';
+         
+         $request_type= $this->input->server("REQUEST_METHOD");
+         if($request_type=="GET"){
+             $data['title'] = 'Fee';
         $data['title_list'] = 'Fee_list';
         $year = $this->Studyyear_model->get();
         $data['year'] = $year;
         $data['class']=$this->Class_model->all();
+       
        
         $feetype=$this->Feetype_model->all();
         $feedata=array();//empty array assign so that error not come in when listing url hit
         $this->load->view('layout/header', $data);
         $this->load->view('admin/fee/list', ['data'=>$data,"feetype"=>$feetype,"feedata"=>$feedata]);
         $this->load->view('layout/footer', $data);
+         }
+
+         if($request_type=="POST"){
+                      $post_data=array(
+            "year"=>$this->input->post("year"),
+            "class"=>$this->input->post("class"),
+            "semester"=>$this->input->post("semester"),
+            "level"=>$this->input->post("level"), );
+
+
+     $getfeeDetails=$this->Fee_model->getfeeDetails($post_data);
+    
+                    $data['title'] = 'Fee';
+        $data['title_list'] = 'Fee_list';
+        $year = $this->Studyyear_model->get();
+        $data['year'] = $year;
+        $data['class']=$this->Class_model->all();
+       
+       
+        $feetype=$this->Feetype_model->all();
+        $feedata=$getfeeDetails;//empty array assign so that error not come in when listing url hit
+        $this->load->view('layout/header', $data);
+        $this->load->view('admin/fee/list', ['data'=>$data,"feetype"=>$feetype,"feedata"=>$feedata]);
+        $this->load->view('layout/footer', $data);
+         }
+        
+          
     }
 
     public function search(){
         $data=array(
             "year"=>$this->input->post("year"),
             "class"=>$this->input->post("class"),
-            "semester"=>$this->input->post("semester"));
+            "semester"=>$this->input->post("semester"),
+            "level"=>$this->input->post("level"), );
+
 
      $getfeeDetails=$this->Fee_model->getfeeDetails($data);
-
+         $this->session->set_userdata("fee_details",$data);
          $data['title'] = 'Fee';
         $data['title_list'] = 'Fee_list';
         $year = $this->Studyyear_model->get();

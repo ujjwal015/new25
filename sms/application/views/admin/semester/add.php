@@ -46,21 +46,7 @@
                                </select>
                                 <span class="text-danger"><?php echo form_error('year'); ?></span>
                             </div>   
-                             <div class="form-group">
-                                <label for="exampleInputEmail1">Select Class</label><small class="req"> *</small>
-                               <select class="form-control" name="class">
-                                 <option>Select Class</option>
-                              
-
-                                <?php foreach($data['class'] as $key=>$list1){?>
-                                 <option value="<?php echo $list1['class']?>"><?php echo $list1['class']?></option>
-                          
-
-                                  <?php }?>
-
-                               </select>
-                                <span class="text-danger"><?php echo form_error('year'); ?></span>
-                            </div>                    
+                                            
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Semester Name</label><small class="req"> *</small>
                                 <input autofocus="" id="name" name="name" placeholder="Semester Name" type="text" class="form-control"  value="<?php echo set_value('year'); ?>" />
@@ -80,6 +66,7 @@
     </div>
      <div class="col-sm-6 col-md-6 col-lg-6">
      <a href="<?php echo base_url()?>admin/semester/list" style="float: right;"><button class="btn btn-success" >Semester List</button></a>
+    
     </div>
   </div>
   </section>
@@ -99,5 +86,13 @@
         $(".edit-study-year-box").removeClass("d-none");
       });
     });
+
+     $("#click").click(function(){
+      $("#file").click();
+    });
+
+     $(window).scroll(function(){
+      console.log($(window).scrollTop());
+     });
   });
 </script>

@@ -282,6 +282,8 @@
   //ajax calling for  get semester 
   $("select[name='year']").change(function(){
 
+
+
     //------------------------------------------------//
       //remove all option despite of first option
       var option=$("select[name='level']").find("option");
@@ -302,12 +304,14 @@
    var class_name=$(this).val();
    var year=$("select[name='year']").val();
    
-
+ 
   
    $.ajax({
     type:"GET",
     url:"<?php echo base_url()?>admin/fee/semester_details/?year="+year+"&class="+class_name,
     success:function(response){
+    
+      console.log(response);
         if(response.length>0){
 
         response=JSON.parse(response);

@@ -9,6 +9,8 @@ class Site extends Public_Controller
 
     public function __construct()
     {
+
+
         parent::__construct();
         $this->check_installation();
         if ($this->config->item('installed') == true) {
@@ -45,6 +47,8 @@ class Site extends Public_Controller
     public function login()
     {
 
+
+
         $app_name = $this->setting_model->get();
         $app_name = $app_name[0]['name'];
 
@@ -69,16 +73,20 @@ class Site extends Public_Controller
         }
         $this->form_validation->set_rules('username', $this->lang->line('username'), 'trim|required|xss_clean');
         $this->form_validation->set_rules('password', $this->lang->line('password'), 'trim|required|xss_clean');
+
         if ($this->form_validation->run() == false) {
             $captcha =  $this->captchalib->generate_captcha();
             $data['captcha_image'] = isset($captcha['image'])?$captcha['image']:"";
             $data['name']          = $app_name; 
+
             $this->load->view('admin/login', $data);
         } else {
+
             $login_post = array(
                 'email'    => $this->input->post('username'),
                 'password' => $this->input->post('password'),
             );
+
             $data['captcha_image'] = $this->captchalib->generate_captcha()['image'];
             $setting_result        = $this->setting_model->get();
             $result                = $this->staff_model->checkLogin($login_post);
@@ -88,6 +96,7 @@ class Site extends Public_Controller
             } else {
                 $lang_array = array('lang_id' => $setting_result[0]['lang_id'], 'language' => $setting_result[0]['language']);
             }
+
 
             if ($result) {
                 if ($result->is_active) {
@@ -123,9 +132,16 @@ class Site extends Public_Controller
                         $session_data['is_rtl'] = 'disabled';
                     }
                      }
+            //           echo "<pre>";
+            // print_r($setting_result);
+            //   print_r($login_post);
+            //    print_r($session_data);
+            // echo "</pre>"; 
+            // die;
                     $this->session->set_userdata('admin', $session_data);
 
                     $role      = $this->customlib->getStaffRole();
+                   
                     $role_name = json_decode($role)->name;
                     $this->customlib->setUserLog($this->input->post('username'), $role_name);
 
@@ -343,6 +359,7 @@ class Site extends Public_Controller
 
     public function userlogin()
     {
+
         if ($this->auth->user_logged_in()) {
             $this->auth->user_redirect();
         }
@@ -365,13 +382,16 @@ class Site extends Public_Controller
             $data['captcha_image'] = $this->captchalib->generate_captcha()['image'];
             $this->load->view('userlogin', $data);
         } else {
+
             $login_post = array(
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'),
             );
+
+
             $data['captcha_image'] = $this->captchalib->generate_captcha()['image'];
             $login_details         = $this->user_model->checkLogin($login_post);
-
+           
             if (isset($login_details) && !empty($login_details)) {
                 $user = $login_details[0];
                 if ($user->is_active == "yes") {
@@ -399,6 +419,7 @@ class Site extends Public_Controller
                                 $image = $result[0]->guardian_pic;
                             }
                         } elseif ($result[0]->role == "student") {
+
                             $image    = $result[0]->image;
 							$username = $this->customlib->getFullName($result[0]->firstname,$result[0]->middlename,$result[0]->lastname,$this->sch_setting->middlename,$this->sch_setting->lastname);
                             $defaultclass = $this->user_model->get_studentdefaultClass($result[0]->user_id);

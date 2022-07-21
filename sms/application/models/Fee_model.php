@@ -8,6 +8,8 @@ class Fee_model extends MY_Model{
 	}
 
 	function add($data){
+
+		
      $query=$this->db->insert("fee",$data);
      if($query){
      	return true;
@@ -19,10 +21,12 @@ class Fee_model extends MY_Model{
 
 
 	function checkExistFee($data){
+
         $this->db->where("year",$data['year']);
          $this->db->where("level",$data['level']);
           $this->db->where("class",$data['class']);
         $query=$this->db->get("fee");
+
         if($query->num_rows()>0){
         	return true;
         }
@@ -108,8 +112,24 @@ class Fee_model extends MY_Model{
 		$this->db->where("year",$data['year']);
 		$this->db->where("class",$data['class']);
 		$this->db->where("semester",$data['semester']);
+		$this->db->where("level",$data['level']);
 		$result=$this->db->get("fee")->result_array();
 		return $result;
+	}
+
+
+
+	function getFee($year,$class,$level){
+
+		$this->db->select(["fee_type","amount"]);
+		$this->db->where("year",$year);
+		$this->db->where("class",$class);
+		$this->db->where("level",$level);
+		$query=$this->db->get("fee");
+		if($query->num_rows()>0){
+			return $query->result_array();
+		}
+		
 	}
 }
 

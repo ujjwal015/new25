@@ -620,6 +620,8 @@ class Student_model extends MY_Model
 
     {
 
+
+
         $this->db->select('student_session.transport_fees,students.app_key,students.parent_app_key,students.vehroute_id,vehicle_routes.route_id,vehicle_routes.vehicle_id,transport_route.route_title,vehicles.vehicle_no,hostel_rooms.room_no,vehicles.driver_name,vehicles.driver_contact,hostel.id as `hostel_id`,hostel.hostel_name,room_types.id as `room_type_id`,room_types.room_type ,students.hostel_room_id,student_session.id as `student_session_id`,student_session.fees_discount,classes.id AS `class_id`,classes.class,sections.id AS `section_id`,sections.section,students.id,students.admission_no , students.roll_no,students.admission_date,students.firstname,students.middlename,  students.lastname,students.image,    students.mobileno, students.email ,students.state ,   students.city , students.pincode , students.note, students.religion, students.cast, school_houses.house_name,   students.dob ,students.current_address, students.previous_school,
 
             students.guardian_is,students.parent_id,
@@ -653,7 +655,7 @@ class Student_model extends MY_Model
         $this->db->where('student_session.session_id', $this->current_session);
 
         $this->db->where('users.role', 'student');
-
+     
         if ($id != null) {
 
             $this->db->where('students.id', $id);
@@ -2033,8 +2035,7 @@ class Student_model extends MY_Model
     public function add($data, $data_setting = array())
 
     {
-
-
+   
 
         if (isset($data['id'])) {
 

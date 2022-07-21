@@ -111,7 +111,14 @@ class TransportationLine_model extends MY_Model{
         return $result;
 
     }
+     
 
+
+    function getByTransportaion($transportationarea){
+        $this->db->where("transportation_area",$transportationarea);
+        $query=$this->db->get("transportationline");
+        return $query->result_array();
+    }
     
 }
 

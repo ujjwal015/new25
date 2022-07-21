@@ -34,7 +34,7 @@ class Studyclass extends Admin_Controller {
 
 
         $this->load->view('layout/header', $data);
-        $this->load->view('admin/studyclass/add', ['data'=>$data]);
+        $this->load->view('admin/Studyclass/add', ['data'=>$data]);
         $this->load->view('layout/footer', $data);
 
         

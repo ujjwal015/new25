@@ -205,7 +205,7 @@
                     <div class="box-header with-border">
                         <h3 class="box-title">Update Transportation Area/Block</h3>
                     </div>
-                    <form id="edit-form" action="<?php echo site_url('admin/transportationarea/update') ?>"  id="employeeform" name="employeeform" method="post" accept-charset="utf-8">
+                    <form id="edit-form" action="<?php echo site_url('admin/TransportationArea/update') ?>"  id="employeeform" name="employeeform" method="post" accept-charset="utf-8">
                         <div class="box-body">
                            
                                 <input type="hidden" name="id">
@@ -285,7 +285,7 @@
         $("#delete-modal").modal("show");
         $(".delete-confirm-btn").click(function(){
           $("#delete-modal").modal("hide");
-          window.location.href="<?php echo base_url()?>/admin/transportationarea/delete/"+id;
+          window.location.href="<?php echo base_url()?>/admin/TransportationArea/delete/"+id;
         });
 
       });

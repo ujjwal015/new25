@@ -74,6 +74,7 @@ function all(){
 
 	function update($data){
 		$this->db->where("year",$data['year']);
+		$this->db->where("name",$data['name']);
 		$result=$this->db->get("semester");
 		$result=$result->num_rows();
 		if($result>1){
@@ -107,9 +108,9 @@ function all(){
 
 	function semester_details($classname,$year){
 		
-		$this->db->where("class_name",$classname);
+	
 		$this->db->where("year",$year);
-		$this->db->select("name");
+		
 		$result=$this->db->get("semester");
 		return $result->result_array();
 	}
@@ -119,6 +120,12 @@ function all(){
 		$this->db->where("year",$year);
 		$result=$this->db->get("semester");
 		return $result->result_array();
+	}
+
+
+	function edit($id){
+		$data=$this->db->get_where("semester",['id'=>$id])->row();
+		return $data;
 	}
 }
 

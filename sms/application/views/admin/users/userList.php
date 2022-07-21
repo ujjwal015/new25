@@ -11,8 +11,16 @@
     </section>
     <!-- Main content -->
     <section class="content">
-        <div class="row">        
+       <a href="<?php echo base_url()?>admin/users/add" style="float: right;margin-bottom: 10px;">
+            <button  class="btn btn-info mb-4">
+   <i class="fa fa-plus"></i>
 
+
+        Add User</button>
+   
+       </a>
+        <div class="row mt-0">        
+          
             <div class="col-md-12">            
                 <div class="nav-tabs-custom theme-shadow">
                     <ul class="nav nav-tabs pull-right">

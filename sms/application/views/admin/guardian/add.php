@@ -161,7 +161,7 @@
                                   <div class="col-md-4">
                                     <div class="form-group">
                                 <label for="exampleInputEmail1"> Password</label><small class="req"> *</small>
-                                   <input type="text" name="password" class="form-control" placeholder="Password">
+                                   <input type="text" name="phone" class="form-control" placeholder="Password">
                                 <span class="text-danger"><?php echo form_error('studyclass'); ?></span>
                             </div>  
                                   </div>

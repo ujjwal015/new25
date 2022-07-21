@@ -139,4 +139,7 @@ if(!empty($cookie_consent)){ ?>
         }
     }
     check_cookie_name('sitecookies');
+
+
+    alert();
 </script>

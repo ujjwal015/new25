@@ -115,7 +115,7 @@
                     <div class="box-header with-border">
                         <h3 class="box-title p-font">Search Fee</h3>
                     </div>
-                    <form id="form1" action="<?php echo site_url('admin/fee/search') ?>"  id="employeeform" name="employeeform" method="post" accept-charset="utf-8">
+                    <form id="form1" action="<?php echo site_url('admin/fee/list') ?>"  id="employeeform" name="employeeform" method="post" accept-charset="utf-8">
                         <div class="box-body">
                            
                                 
@@ -227,7 +227,9 @@
 
     <!------fee listing start ---------------->
     <div class="col-sm-8">
-     <div class="box box-primary">
+      <?php if(!empty($feedata)) {?>
+
+          <div class="box box-primary">
        <div class="box-header with-border">
                         <h3 class="box-title p-font" style="font-weight: bolder;">Fee List</h3>
                     </div>
@@ -284,6 +286,8 @@
       
       </table>
      </div>
+
+    <?php }?>
     </div>
     <!---- end fee listing --------------------->
    

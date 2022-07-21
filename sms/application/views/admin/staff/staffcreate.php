@@ -72,7 +72,7 @@
 
 
 
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
 
                                                 <div class="form-group">
 
@@ -94,7 +94,7 @@
 
                                         ?>
 
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
 
 
 
@@ -102,7 +102,7 @@
 
                                                 <label for="exampleInputEmail1"><?php echo $this->lang->line('role'); ?></label><small class="req"> *</small>
 
-                                                <select  id="role" name="role[]" class="form-control" multiple="">
+                                                <select  id="role" name="role[]" class="form-control" multiple>
 
                                                     <option value=""   ><?php echo $this->lang->line('select'); ?></option>
 
@@ -128,7 +128,7 @@
 
                                         <?php if ($sch_setting->staff_designation) { ?>
 
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
 
                                                 <div class="form-group">
 
@@ -160,7 +160,7 @@
 
                                         <?php } if ($sch_setting->staff_department) { ?>
 
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
 
                                                 <div class="form-group">
 
@@ -1071,3 +1071,10 @@
 </script>
 
 <script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/js/savemode.js"></script>    
+
+<script type="text/javascript">
+   window.onload=function(){
+     $('select[multiple]').multiselect();
+   }
+</script>
+

@@ -9,9 +9,11 @@
         <meta http-equiv="Cache-control" content="no-cache">
         <meta name="theme-color" content="#424242" />
        <link href="<?php echo base_url(); ?>uploads/school_content/admin_small_logo/<?php $this->setting_model->getAdminsmalllogo();?>" rel="shortcut icon" type="image/x-icon">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/jquery.mCustomScrollbar.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <?php
           $this->load->view('layout/theme');
          ?>
@@ -96,6 +98,11 @@
 
       }
   </style>
+
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/mdtimepicker.css">
+  <script type="text/javascript" src="<?php echo base_url()?>public/mdtimepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>public/toastr.css">
+  <script type="text/javascript" src="<?php echo base_url()?>public/toastr.js"></script>
     </head>
     <body class="hold-transition skin-blue fixed sidebar-mini">
 

@@ -116,6 +116,24 @@
                            
                                 
                             <?php echo $this->customlib->getCSRF(); ?> 
+                             <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                <label for="exampleInputEmail1">Select Income Head</label><small class="req"> *</small>
+                                  <select class="form-control" name="income-head">
+                                    <option>Select Income Head</option>
+                                    <?php foreach($incomehead as $incomehead_list){?>
+                                      <option><?php echo $incomehead_list['income_category']?></option>
+                                    
+                                    <?php }?>
+                                  </select>
+                                <span class="text-danger"><?php echo form_error('studyclass'); ?></span>
+                            </div>  
+                                  </div>
+
+                                  
+                                 
+                                </div>   
                                 <div class="row">
                                   <div class="col-md-12">
                                     <div class="form-group">
@@ -158,7 +176,27 @@
                                 <input type="hidden" name="id">
                             <?php echo $this->customlib->getCSRF(); ?> 
                                               
-                           <div class="col-md-12">
+                          
+
+                                   <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                <label for="exampleInputEmail1">Select Income Head</label><small class="req"> *</small>
+                                  <select class="form-control" name="income-head" id="income-head">
+                                    <option>Select Income Head</option>
+                                    <?php foreach($incomehead as $incomehead_list){?>
+                                      <option><?php echo $incomehead_list['income_category']?></option>
+                                    
+                                    <?php }?>
+                                  </select>
+                                <span class="text-danger"><?php echo form_error('studyclass'); ?></span>
+                            </div>  
+                                  </div>
+
+                                  
+                                 
+                                </div>  
+                                 <div class="col-md-12">
                                     <div class="form-group">
                                 <label for="exampleInputEmail1">Income Group</label><small class="req"> *</small>
                                   <input type="text" name="name" class="form-control" placeholder="Income Group">
@@ -188,10 +226,11 @@
                         <div class="box-body">
                             <div class="mailbox-messages table-responsive">
                                 <div class="download_label"><?php echo $this->lang->line('item_list'); ?></div>
-                                <table class="table table-hover table-striped table-bordered example">
+                                <table class="table table-hover table-striped table-bordered example text-center">
                                     <thead>
                                         <tr>
                                             <th>Sr.No</th>
+                                            <th>Income Head</th>
                                             <th>Income Group</th>
                                             <th>Status</th>
                                             <th>Action</th>
@@ -202,6 +241,7 @@
                                       <?php foreach($incomegroup as $key=>$list){?>
                                         <tr>
                                           <td><?php echo $key+1?></td>
+                                          <td><?php echo  $list['income_head'] ?></td>
                                           <td><?php echo  $list['name'] ?></td>
                                           <td>
                                             <?php if($list['status']==1)
@@ -276,8 +316,12 @@
           var tr=this.parentElement.parentElement;
           var td=tr.getElementsByTagName("TD");
           
-          $("#edit-form").find("input[name='name']").val(td[1].innerHTML);
-           $
+          $("#edit-form").find("input[name='name']").val(td[2].innerHTML);
+           $("#income-head").find("option").each(function(){
+            if(td[1].innerHTML==$(this).text()){
+              $(this).attr("selected","selected");
+            }
+           });
 
         $(".add-transportation-box").addClass("d-none");
         $(".edit-transportation-box").removeClass("d-none");

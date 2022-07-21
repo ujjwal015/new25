@@ -34,9 +34,9 @@ class Student extends Admin_Controller
 
         $this->load->library('encoding_lib');
 
-        $this->load->model("classteacher_model");
+        $this->load->model(["classteacher_model","Studyyear_model"]);
 
-        $this->load->model(array("timeline_model", "student_edit_field_model"));
+        $this->load->model(array("timeline_model", "student_edit_field_model","Fee_model","TransportationArea_model","TransportationLine_model","Vehicles_model","StudentTransportation_model"));
 
         $this->blood_group        = $this->config->item('bloodgroup');
 
@@ -51,7 +51,7 @@ class Student extends Admin_Controller
     public function index()
 
     {
-
+       
 
 
         $data['title']       = 'Student List';
@@ -686,13 +686,14 @@ class Student extends Admin_Controller
 
     {
 
+
+       
         if (!$this->rbac->hasPrivilege('student', 'can_add')) {
 
             access_denied();
 
         }
-
-
+          
 
         $this->session->set_userdata('top_menu', 'Student Information');
 
@@ -738,14 +739,16 @@ class Student extends Admin_Controller
 
         $data['hostelList']         = $hostelList;
 
-        $vehroute_result            = $this->vehroute_model->get();
+        // $vehroute_result            = $this->vehroute_model->get();
 
-        $data['vehroutelist']       = $vehroute_result;
+        // $data['vehroutelist']       = $vehroute_result;
 
         $custom_fields              = $this->customfield_model->getByBelong('students');
+        $year                       =$this->Studyyear_model->get();
+        $transportationarea=$this->TransportationArea_model->get();
+        $data['transportationarea']=$transportationarea;
 
-
-
+      
         foreach ($custom_fields as $custom_fields_key => $custom_fields_value) {
 
             if ($custom_fields_value['validation']) {
@@ -824,7 +827,7 @@ class Student extends Admin_Controller
 
             $this->load->view('layout/header', $data);
 
-            $this->load->view('student/studentCreate', $data);
+            $this->load->view('student/studentCreate', ['data'=>$data,"year"=>$year]);
 
             $this->load->view('layout/footer', $data);
 
@@ -1001,7 +1004,7 @@ class Student extends Admin_Controller
             $mother_occupation = $this->input->post('mother_occupation');
 
 
-
+           
             if ($this->sch_setting_detail->guardian_name) {
 
                 $data_insert['guardian_is'] = $this->input->post('guardian_is');
@@ -1258,17 +1261,35 @@ class Student extends Admin_Controller
 
       
 
-            
+             
 
             if ($insert) {
 
                 $insert_id = $this->student_model->add($data_insert, $data_setting);
+
 
                 if (!empty($custom_value_array)) {
 
                     $this->customfield_model->insertRecord($custom_value_array, $insert_id);
 
                 }
+                 //insert transportation data of student
+                $vechile_id=$this->input->post("vehicles");
+                $start_date=$this->input->post("transportation_start_date");
+                $end_date=$this->input->post("transportation_end_date");
+                if(isset($vechile_id) && !empty($vehroute_id) && !empty($start_date) && !empty($end_date)){
+
+
+                    $data=array(
+                        "student_id"=>$insert_id,
+                        "start_date"=>date("Y-m-d",strtotime($start_date)),
+                        "end_date"=>date("Y-m-d",strtotime($end_date)),
+                        "vehicles_id"=> $vechile_id,
+                    );
+                    $this->StudentTransportation->add($data);
+                }
+                
+                //end insert transportation of student
 
                 $data_new = array(
 
@@ -1283,7 +1304,7 @@ class Student extends Admin_Controller
                     'fees_discount' => $fees_discount,
 
                 );
-
+                 
                 $this->student_model->add_student_session($data_new);
 
                 $user_password = $this->role->get_random_password($chars_min = 6, $chars_max = 6, $use_upper_case = false, $include_numbers = true, $include_special_chars = false);
@@ -1585,12 +1606,13 @@ class Student extends Admin_Controller
             } else {
 
 
+                  $transportationarea=$this->TransportationArea_model->get();
 
                 $data['error_message'] = $this->lang->line('admission_no') . ' ' . $admission_no . ' ' . $this->lang->line('already_exists');
 
                 $this->load->view('layout/header', $data);
 
-                $this->load->view('student/studentCreate', $data);
+                $this->load->view('student/studentCreate', ['data'=>$data,"transportationarea"=>$transportationarea]);
 
                 $this->load->view('layout/footer', $data);
 
@@ -3349,7 +3371,7 @@ class Student extends Admin_Controller
         $data['classlist']       = $class;
 
 
-
+       
         $this->load->view('layout/header', $data);
 
         $this->load->view('student/studentSearch', $data);
@@ -5322,6 +5344,50 @@ class Student extends Admin_Controller
             redirect('student/addroute');
 
     }
+
+
+    //get fee on the base of selected class year and level
+    public function getfee(){
+
+
+        $class=$this->input->get("class");
+        $level=$this->input->get("level");
+        $year=$this->input->get("year");
+
+         $data=$this->Fee_model->getFee($year,$class,$level);
+
+         if(!empty($data)){
+            echo json_encode(['data'=>$data]);
+         }
+         else{
+         $data=array();
+         echo json_encode(['data'=>$data]);
+         }
+        
+
+    }
+
+
+    public function getTransportationLineDetails(){
+
+        $transportationarea= $this->input->get("transportationarea");
+       $data= $this->TransportationLine_model->getByTransportaion($transportationarea);
+         echo json_encode(['data'=>$data]);
+
+    }
+
+    public function getAllVehicle(){
+        
+        $transportationarea=$this->input->get("transportationarea");
+        $transportationline=$this->input->get("transportationline");
+
+         $data=$this->Vehicles_model->getAllVehicles($transportationarea,$transportationline);
+
+         echo json_encode(['data'=>$data]);
+    }
+
+
+
 
 }
 
