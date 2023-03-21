@@ -11,3 +11,4 @@ pipeline
                 echo'Build App'
             }
         }
+    }
