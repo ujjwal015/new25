@@ -11,5 +11,13 @@ pipeline
                 echo'Build App'
             }
         }
+        
+        stages('Testing')
+        {
+            steps
+            {
+                echo'Testing App'
+            }
+        }
     }
 }
